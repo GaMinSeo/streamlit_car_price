@@ -3,6 +3,6 @@ import streamlit as st
 def run_home():
     st.subheader('자동차 데이터를 분석하고 예측합니다~~')
     st.text('데이터는 캐글에 있는 Car_Purchasing_Data.csv 파일을 사용했습니다.')# 링크도 삽입해야함
-    st.text('탐색적 데이터 분서과 자동차 구매 금액을 예측하는 앱입니다.')
+    st.text('탐색적 데이터 분석과 자동차 구매 금액을 예측하는 앱입니다.')
     img = './image/car.webp'
     st.image(img, use_column_width=True)
